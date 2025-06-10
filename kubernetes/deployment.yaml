@@ -18,7 +18,7 @@ spec:
       - name: github-container-registry
       containers:
       - name: tic-tac-toe
-        image: ghcr.io/pkishore449/devsecops_tic-tac-toe_application:sha-34b7151bd3f56d0676571087ad7fa090934e21e0
+        image: ghcr.io/pkishore449/devsecops_tic-tac-toe_application:sha-1613a6edd781cac9d422757ea980c81431e48e7c
         imagePullPolicy: Always
         ports:
         - containerPort: 80
